@@ -1,0 +1,182 @@
+.Menu{
+    background: url(imagens/Porsche.png);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 18px;
+    margin: 10px 0 20px;
+}
+
+.caixa-pesquisa {
+    display: flex;
+    gap: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+    background: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+.header{
+    
+        background-color: rgb(80, 78, 73);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 45px;
+        
+    
+}
+
+.logo{
+    
+    display: flex;
+    align-items: center;
+}
+
+.Navegacao{
+    display: flex;
+    align-items: center;
+}
+
+.Navegacao li a{
+    padding: 10px 5px;
+    transition: 0.3s ease-in-out;
+}
+
+.botao:hover{
+    background-color: blue;
+    
+}
+
+body{
+    font-family: "Oswald", serif;
+}
+
+.features{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 50px 20px;
+
+}
+
+.feature-item{
+    max-width: 250px;
+}
+
+.icon img{
+    width: 50px;
+    height: 50px;
+    background-color: #e6f0ff;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+h3{
+    margin: 15px 0 10px;
+    font-size: 18px;
+    color: #000;
+}
+
+
+
+.veiculos{
+    
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card{
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: left;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.price {
+    color: blue;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.card p {
+    color: gray;
+    font-size: 0.9em;
+}
+
+.vei{
+    
+    padding: 20px;
+    margin-left: 400px;
+    margin-bottom: 60px;
+   
+}
+
+
+.rodape{
+    margin: 0;
+    padding: 0;
+    background-color: black; /* Cor de fundo do site */
+    color: white;
+}
+
+footer {
+    
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    background-color: black;
+}
+
